@@ -1,0 +1,6 @@
+<form style="background-color: #f8f8f8; color: black;" id="search-form" data-ng-controller="SearchController" role="search" data-ng-submit="search()">
+  <div style="background-color: #f8f8f8; color: black;" class="form-group" data-ng-class="{'has-error': badQuery}">
+    <input style="background-color: #f8f8f8; color: black;" id="search" type="text" class="form-control" data-ng-model="q" data-ng-class="{'loading': loading}" placeholder="{{'Search for block, transaction or address'|translate}}" data-ng-submit="search()" focus="true">
+    </div>
+  <div class="no_matching text-danger" data-ng-show="badQuery" translate>No matching records found!</div>
+</form>
