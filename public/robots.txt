@@ -1,4 +1,6 @@
 User-agent: *
 Disallow: /address
 Disallow: /api
+Disallow: /insight-api
+Disallow: /insight-api-zen
 Disallow: /transaction
